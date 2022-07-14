@@ -1,5 +1,5 @@
 # gatsby-remark-md-page-links
-```md
+```markdown
 You can create links to .md page by [relative file path](./README.md) instead of [url style link](../README/)
 ```
 
