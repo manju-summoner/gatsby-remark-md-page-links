@@ -14,7 +14,7 @@ module.exports = ({markdownAST, markdownNode}) => {
             path = path.replace('/index', '');
             
           if(hash)
-              return `${basePath}${path}/#${hash}`
+              return `${basePath}${path}/${hash}`
           else
               return `${basePath}${path}/`
         })
